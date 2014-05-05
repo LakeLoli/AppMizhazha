@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signupRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/signupUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/username_hint">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/signupPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/signupUsernameEditText"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password_hint"
+        />
+
+    <EditText
+        android:id="@+id/signupEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/signupPasswordEditText"
+        android:ems="10"
+        android:inputType="textEmailAddress" 
+        android:hint="@string/signup_email_hint"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupEmailEditText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signup_button" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        tools:context="com.lolilake.mizhazha.SignupActivity"
+        tools:ignore="MergeRootFrame" >
+    </FrameLayout>
+
+</RelativeLayout>

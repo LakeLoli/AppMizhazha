@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mizhazha</string>
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="password_hint">Password</string>
+    <string name="username_hint">Username</string>
+    <string name="login_button">Log in</string>
+    <string name="signup_textview">Sign up</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_button">Sign up</string>
+    <string name="signup_error_message">Please make sure to enter your username, password and email</string>
+    <string name="signup_error_title">Oops!</string>
+    <string name="login_error_message">Please make sure to enter your username and password</string>
+    <string name="login_error_title">Oops!</string>
+    <string name="menu_logout">Logout</string>
+    <string name="empty_friend_fragment">Please add your friends!</string>
+    <string name="empty_inbox_fragment">No income messages!</string>
+    <string name="menu_edit_friends">Eidt Friends</string>
+    <string name="title_activity_edit_friends">Edit Friends</string>
+    <string name="empty_edit_friends">No friends to edit!</string>
+    <string name="error_title">Oops!</string>
+    <string name="menu_camera">Camera</string>
+
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Picture</item>
+        <item>Choose Video</item>
+    </string-array>
+
+    <string name="error_message_media">Oops! We can\'t find a valid storage path!</string>
+    <string name="error_carema">Oops, there was an error</string>
+    <string name="viedo_size_warning">The selected Video must be smaller than 10Mb</string>
+    <string name="error_file_not_found">Error occurs when opening the file</string>
+    <string name="error_video_too_large">The selected file is too large, please select a smaller one</string>
+    <string name="title_activity_recipients">Choose Recipients</string>
+    <string name="empty_recipients">Empty recipient!</string>
+    <string name="action_send">Send</string>
+    <string name="error_file_message">There was an error with selected file, please select another file!</string>
+    <string name="error_message_title">Oops!</string>
+    <string name="success_message">Message sent!</string>
+    <string name="error_sending_message">There was an error sending your message. Please send again.</string>
+    <string name="mediem_text">Mediem Text</string>
+    <string name="image_description">Image</string>
+    <string name="title_activity_view_image">Mizhazha</string>
+    <string name="error_video_handle">Fail to find an application to take video</string>
+    <string name="error_photo_handle">Fail to find an application to take photo</string>
+    <string name="error_fail_to_load_image">Failed to load Image from server</string>
+
+</resources>
